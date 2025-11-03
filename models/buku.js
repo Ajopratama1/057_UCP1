@@ -4,20 +4,4 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true
-    },
-    judul: {
-      type: DataTypes.STRING,
-    },
-    pengarang: {
-        type: DataTypes.STRING,
-    },
-    tahun_terbit: {
-      type: DataTypes.STRING,
-    },
-    bidang:{
-        type: DataTypes.STRING,
-    }
-  });
-
-  return Buku;
-};
+  
