@@ -13,4 +13,11 @@ module.exports = (sequelize, DataTypes) => {
     },
     tahun_terbit: {
       type: DataTypes.STRING,
+    },
+    bidang:{
+        type: DataTypes.STRING,
+    }
+  });
 
+  return Buku;
+};
