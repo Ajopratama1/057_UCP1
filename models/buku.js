@@ -11,4 +11,6 @@ module.exports = (sequelize, DataTypes) => {
     pengarang: {
         type: DataTypes.STRING,
     },
+    tahun_terbit: {
+      type: DataTypes.STRING,
 
